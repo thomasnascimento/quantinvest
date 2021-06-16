@@ -23,6 +23,10 @@ async function tempo(request, response) {
         date: dynamicDate.toGMTString(),
         inscritos: inscritos
     });
+
+    return (
+        <div>{inscritos}</div>
+    )
 }
 
 export default tempo;
