@@ -15,7 +15,7 @@ async function tempo(request, response) {
         console.error(err);
     });
     const subscribersResponseJson = await subscribersResponse.json();
-    const inscritos = subscribersResponseJson.firstTradeDate;
+    const inscritos = subscribersResponseJson.prices;
 
     response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate');
 
