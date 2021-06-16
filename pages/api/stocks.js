@@ -12,3 +12,10 @@ const settings = {
 $.ajax(settings).done(function (response) {
     console.log(response);
 })
+
+function HistoricalData() {
+    return (
+        <div>HistoricalData - ABEV3</div>
+    )
+}
+export default HistoricalData
