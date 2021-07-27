@@ -1,35 +1,25 @@
 {
-  "name": "quantinvest",
+  "name": "first-site",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasnascimento/quantinvest.git"
+    "url": "git+https://github.com/thomasnascimento/first-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thomasnascimento/quantinvest/issues"
+    "url": "https://github.com/thomasnascimento/first-site/issues"
   },
-  "homepage": "https://github.com/thomasnascimento/quantinvest#readme",
+  "homepage": "https://github.com/thomasnascimento/first-site#readme",
   "dependencies": {
-    "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
     "next": "^10.2.3",
-    "plotly": "^1.0.6",
-    "plotly.js": "^2.0.0",
-    "python-shell": "^3.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-plotly.js": "^2.5.1",
-    "unirest": "^0.6.0",
-    "yahoo-finance": "^0.3.7",
-    "yahoo-stock-prices": "^1.1.0"
-  },
-  "description": ""
+    "react-dom": "^17.0.2"
+  }
 }
